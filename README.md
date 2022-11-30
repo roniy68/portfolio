@@ -23,6 +23,8 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
+- [To check for css errors](#to-check-for-css-errors)
+- [To check for html errors](#to-check-for-html-errors)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -38,7 +40,7 @@
 > This Project is to create Portfolio for our Resume
 >       <br><b> Module One day 2 Project [solo]</b>
 
-**PORTFOLIO** is a html and css with eslint set up template.
+**PORTFOLIO** is a template to build your portfolio website beautiful.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -56,7 +58,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> THIS IS A SIMPLE HELLO WORLD APP FOR NOW
+> THIS IS A SIMPLE TEMPLATE APP FOR NOW
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +107,7 @@ Clone this repository to your desired folder:
  commands:
 
 ```sh
-  git clone https://github.com/roniy68/hello-world.git
+  git clone https://github.com/roniy68/portfolio.git
   cd hello-world
   npm install -y
 ```
@@ -121,21 +123,21 @@ To run the project, execute the following command:
 ```sh
   serve -s .
 ```
--
 
 
 
-<!-- ### Deployment
 
-You can deploy this project using: -->
-
-<!--
-Example:
+# To check for css errors
 
 ```sh
+    npx stylelint "**/*.{css,scss}"
 
 ```
- -->
+# To check for html errors
+```sh
+    npx hint .
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -197,7 +199,7 @@ If you like this project...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+
 
 - **How you clone the repo?**
 

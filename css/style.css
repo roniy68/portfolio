@@ -7,67 +7,66 @@
   font-family: "Inter", sans-serif;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-.portfolio{
+.portfolio {
   background: white;
   background-image: url("/images/background.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 0;
-
- 
 }
-.portfolio__navbar{
+
+.portfolio__navbar {
   padding: 10px;
   display: flex;
   justify-content: space-between;
   background-color: whitesmoke;
   font-size: 20px;
 }
-.navbar__logo{
+
+.navbar__logo {
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 28px;
   align-items: center;
   text-align: center;
-  color: #28352F;
+  color: #28352f;
   flex: none;
   order: 0;
   flex-grow: 0;
-
 }
 
-.main__content{
+.main__content {
   font-size: 20px;
   display: flex;
-  margin-top:80px;
+  margin-top: 80px;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
 
-.main__heading span{
-  color : rgba(52, 140, 52, 0.84);
+.main__heading span {
+  color: rgba(52, 140, 52, 0.84);
 }
 
-.main__description{
-  
+.main__description {
   margin: 40px;
   padding: 20px;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #172B4D;
-  flex:none;
-  flex-grow:0;
+  color: #172b4d;
+  flex: none;
+  flex-grow: 0;
 }
-.social__icons{
+
+.social__icons {
   display: flex;
   justify-content: space-between;
   margin: 50px;
