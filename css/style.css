@@ -67,9 +67,12 @@ a {
 }
 
 .social__icons {
-  display: flex;
-  justify-content: space-between;
   margin: 50px;
   padding: 20px;
   border-color: black;
+}
+.social__icons > ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
