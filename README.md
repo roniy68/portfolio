@@ -13,7 +13,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 HELLO\_MICROVERSE ](#-hello_microverse-)
+- [📖 Portfolio  ](#-portfolio--)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -33,12 +33,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 HELLO_MICROVERSE <a name="about-project"></a>
+# 📖 Portfolio  <a name="about-project"></a>
 
 > This Project is to create Portfolio for our Resume
 >       <br><b> Module One day 2 Project [solo]</b>
 
-**HELLO_MICROVERSE** is a html and css with eslint set up template.
+**PORTFOLIO** is a html and css with eslint set up template.
 
 ## 🛠 Built With <a name="built-with"></a>
 
