@@ -189,7 +189,7 @@ button {
   padding: 0 25px;
   background-image: url("../images/about-me-top.svg"), url("../images/about-me-bottom.svg");
   background-repeat: no-repeat;
-  background-position: top right,bottom left;
+  background-position: top right, bottom left;
 }
 
 #about .about-title {
@@ -246,6 +246,7 @@ button {
 
 .about-card .skills {
   width: 313px;
+  margin-bottom: 20px;
 }
 
 .supporting-text {
