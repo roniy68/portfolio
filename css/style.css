@@ -244,6 +244,7 @@ button {
 .about-card .skills {
   width: 313px;
   margin-bottom: 20px;
+  float: inherit;
 }
 
 .supporting-text {
