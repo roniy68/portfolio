@@ -332,6 +332,7 @@ textarea::placeholder {
   text-decoration: none;
   align-items: baseline;
   margin-top: 45px;
+  list-style: none;
 }
 
 #form-session .footeremail {
