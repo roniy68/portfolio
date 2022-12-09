@@ -311,6 +311,9 @@ textarea::placeholder {
   font-weight: 400;
   line-height: 24px;
 }
+#form input:hover{
+  transform: translateY(1.5%);
+}
 
 #form textarea {
   width: 100%;
