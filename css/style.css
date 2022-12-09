@@ -270,11 +270,10 @@ button {
 /* Form Section */
 
 #form-session {
-
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 
 #form-session h1 {
@@ -283,6 +282,7 @@ button {
   line-height: 52px;
   text-align: center;
   padding: 60px 45px;
+  color : #172B4D;
 }
 
 #form-session #form {
@@ -291,8 +291,14 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:10px;
-  padding:10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  background-image: url(../images/illustration-contact-form.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
 }
 
 #form input {
@@ -304,6 +310,10 @@ button {
   transition: all 0.2s ease-out;
 }
 
+#form input:hover {
+  transform: translateX(1.5%);
+}
+
 #form input::placeholder,
 textarea::placeholder {
   padding-left: 16px;
@@ -311,9 +321,7 @@ textarea::placeholder {
   font-weight: 400;
   line-height: 24px;
 }
-#form input:hover{
-  transform: translateY(1.5%);
-}
+
 
 #form textarea {
   width: 100%;
@@ -321,6 +329,10 @@ textarea::placeholder {
   border: 1px solid #60c095;
   margin-bottom: 24px;
   transition: all 0.2s ease-out;
+}
+
+#form textarea:hover {
+  transform: translateX(1.5%);
 }
 
 #form textarea::placeholder {
@@ -345,13 +357,4 @@ textarea::placeholder {
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 350px;
-}
-
-#frame1,
-#frame2 {
-  display: none;
-}
-
-footer {
-  display: none;
 }
