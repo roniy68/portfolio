@@ -339,6 +339,12 @@ textarea::placeholder {
   color: #091e42;
 }
 
+#form > button:hover {
+  color: #fff;
+  background-color: #09a01b;
+  box-shadow: 0 8px 16px rgba(3, 166, 8, 0.24);
+}
+
 #form-session .social-media-icon-form {
   display: flex;
   justify-content: center;
