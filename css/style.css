@@ -546,6 +546,8 @@ footer {
 
   #form-session form {
     width: 57%;
+    margin: 10px;
+    padding: 10px;
   }
 
   #form-session #form {
