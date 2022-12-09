@@ -76,7 +76,7 @@ p {
   border-color: black;
 }
 
-.social__icons>ul {
+.social__icons > ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
@@ -282,7 +282,7 @@ button {
   line-height: 52px;
   text-align: center;
   padding: 60px 45px;
-  color : #172B4D;
+  color: #172b4d;
 }
 
 #form-session #form {
@@ -321,7 +321,6 @@ textarea::placeholder {
   font-weight: 400;
   line-height: 24px;
 }
-
 
 #form textarea {
   width: 100%;
