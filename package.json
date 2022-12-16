@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-bootstrap",
   "version": "1.0.0",
   "description": "<a name=\"readme-top\"></a>",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roniy68/portfolio.git"
+    "url": "git+https://github.com/roniy68/bootstrap.git"
   },
   "author": "Ahmed Hasan Rony",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/roniy68/portfolio/issues"
+    "url": "https://github.com/roniy68/bootstrap/issues"
   },
-  "homepage": "https://github.com/roniy68/portfolio#readme",
+  "homepage": "https://github.com/roniy68/bootstrap#readme",
   "devDependencies": {
     "hint": "^7.1.3",
     "stylelint": "^13.13.1",

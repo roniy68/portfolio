@@ -18,6 +18,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
   - [🚀 Live Demo ](#-live-demo-)
+  - [Demonstration :](#demonstration-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -75,6 +76,12 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Demonstration : 
+
+> Watch this video: 
+<!-- - ![demo-video](https://www.loom.com/share/96c06bc2cb1c4f9a8da04cd5d5b8e931) -->
+- Demonstraion: <br/>
+[![Watch the video](https://media.giphy.com/media/3oz8xNVZFhMdjNnoic/giphy.gif)](https://www.loom.com/share/96c06bc2cb1c4f9a8da04cd5d5b8e931)
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
