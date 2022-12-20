@@ -1,19 +1,20 @@
 const divMenu = document.querySelector('.nav-menu');
 const crossButton = document.querySelector('.cross-button');
 const hamburgerButton = document.querySelector('.fa-bars');
+const navLink = document.querySelector('.nav-link');
 
 const openMenu = () => {
-    divMenu.classList.toggle('show');
+  divMenu.classList.toggle('show');
 };
 
 crossButton.addEventListener('click', () => {
-    openMenu();
+  openMenu();
 });
 
 hamburgerButton.addEventListener('click', () => {
-    openMenu();
+  openMenu();
 });
 
-$('.nav-menu li a').on('click', () => {
-    $('#cross-button').click();
+navLink.addEventListener('click', () => {
+  openMenu();
 });
