@@ -188,3 +188,18 @@ listProject.forEach((project) => {
   // add project to the work container
   work.append(workContainer);
 });
+
+/* Form Validation */
+const form = document.getElementById('contact-form');
+const error = document.getElementById('error');
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+  const { email } = form.elements;
+  if (email.validity.typeMismatch
+    || email.value.toLowerCase() !== email.value
+    || !email.validity.valid) {
+    error.textContent = 'Invalid email. Please ensure you have the correct email address. Thank you!';
+  } else {
+    form.submit();
+  }
+});
