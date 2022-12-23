@@ -32,27 +32,27 @@ function showDetails(project) {
   imgDiv.classList.add('image-container');
   const img = document.createElement('img');
   img.classList.add('img');
-  img.scr = project.image;
+  img.src = project.image;
   img.alt = 'Portfolio Project Image';
   imgDiv.append(img);
   //div.image-container>
   //img.img>scr="project.image">alt="Portfolio Project Image"
-
+  
+  //container for title and btnClose
+  
   //Title
   const title = document.createElement('h2');
   title.classList.add('project-title');
   title.textContent = project.name;
   //h2.project-title> project.name
-
+  
   //btnClose
   const btnContainer = document.createElement('div');
   btnContainer.classList.add('btn-container');
-  const btnClose = document.createElement('img');
-  btnClose.id = "close-btn";
-  btnClose.src = 'images/cross2.svg';
-  btnClose.alt = 'Close button';
-  btnClose.addEventListener(click, () => {
-    document.getElementById('popup-container').remove();
+  const btnClose = document.createElement('i');
+  btnClose.classList.add('fa-solid', 'fa-x');
+  btnClose.addEventListener('click', () => {
+    document.getElementById('popup-contianer').remove();
   });
   btnContainer.append(btnClose);
   //div.btn-container> img#close-btn>src="images/cross2.svg">alt...
@@ -73,10 +73,10 @@ function showDetails(project) {
 
   //Creating list of programming languages
   const technologies = document.createElement('ul');
-  technologies.classList.add('tag');
+  technologies.classList.add('program');
   for(let i = 0 ; i < project.technologies.length; i +=1){
     const list = document.createElement('li');
-    list.classList.add('lang');
+    list.classList.add('language');
     list.textContent = project.technologies[i];
     technologies.append(list);
   }
@@ -113,7 +113,7 @@ function showDetails(project) {
   buttonSource.append(imgBtnSource);
   //button.btn>type="button">p <- "See Source">img>src..>alt..
 
-  detailFooter.append(technologies);
+  //under div detailfooter
   detailFooter.append(buttonLive);
   detailFooter.append(buttonSource);
   //div.detail-footer >
@@ -122,36 +122,15 @@ function showDetails(project) {
     //button.btn>type="button">p <- "See Source">img>src..>alt..
 
   // Add all element into the container
-  popupImgContainer.append(title);
-  popupImgContainer.append(btnContainer);
-  popupImgContainer.append(projectName);
   popupImgContainer.append(imgDiv);
+  popupImgContainer.append(btnContainer);
+  popupImgContainer.append(title);
+  popupImgContainer.append(technologies);
   popupImgContainer.append(description);
   popupImgContainer.append(detailFooter);
 
   popupContainer.append(popupImgContainer);
   document.body.append(popupContainer);
-
-  //All elements append sequence wise inside body. 
-
-  /*popupImgContainer.popupimg-container
-    h2.project-title> project.name
-    div.btn-container> img#close-btn>src="images/cross2.svg">alt...{EVENT}
-        ul.project-name
-            li.sub-title> a>href='#'<- project.details[j] {Cannopy}
-            li.bullet(&#x2022) {*}
-            li> a.backend-yr>href="#"<- project.details[j] {Backend Dev}
-            li.bullet(&#x2022) {*}
-            li> a.backend-yr <-project.details[j] {2015}
-    div.image-container>
-        img.img>scr="project.image">alt="Portfolio Project Image"
-        p.discription <- project.description
-    div.detail-footer >
-        ul.classification > 
-            li.lang> a>href="#" <- project.technologies[i] {Loop}
-    button.btn>type="button">p <- "See Live">img>src..>alt..
-    button.btn>type="button">p <- "See Source">img>src..>alt..
-  */
 }
 
 
