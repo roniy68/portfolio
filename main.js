@@ -190,7 +190,7 @@ listProject.forEach((project) => {
 });
 
 /* Form Validation */
-const form = document.getElementById('contact-form');
+const form = document.getElementById('form');
 const error = document.getElementById('error');
 form.addEventListener('submit', (event) => {
   event.preventDefault();
