@@ -107,7 +107,7 @@ function showDetails(project) {
   txtBtnSource.textContent = 'See Source';
 
   const imgBtnSource = document.createElement('img');
-  imgBtnSource.src = 'images/purple-github in button.svg';
+  imgBtnSource.src = 'images/github-Icon.svg';
   imgBtnSource.alt = 'Button Source';
   buttonSource.append(txtBtnSource);
   buttonSource.append(imgBtnSource);

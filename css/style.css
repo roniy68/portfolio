@@ -475,7 +475,7 @@ button:active {
 .popup-container .popupimg-container .btn-container .fa-x {
   display: flex;
   align-items: flex-start;
-  color: #000;
+  color: white;
   font-size: 20px;
   cursor: pointer;
 }
@@ -496,10 +496,10 @@ button:active {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  border: 1px solid #396df2;
-  color: #396df2;
+  border: 1px solid green;
+  color: white;
   border-radius: 8px;
-  background-color: white;
+  background-color: #36B37F;
   height: 50px;
   width: 140px;
   transition:
@@ -745,6 +745,7 @@ footer {
   }
 
   .popup-container .popupimg-container .detail-footer .btn {
+    position:fixed top left;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -752,10 +753,10 @@ footer {
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    border: 1px solid #396df2;
-    color: #396df2;
+    border: 1px solid #11aa1e;
+    color: white;
     border-radius: 8px;
-    background-color: white;
+    background-color: #36B37F;
     height: 50px;
     width: 140px;
     transition:
