@@ -988,3 +988,8 @@ footer {
     display: none;
   }
 }
+
+.error {
+  font-weight: bold;
+  color: red;
+}
