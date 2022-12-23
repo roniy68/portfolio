@@ -203,3 +203,9 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// save data 
+window.addEventListener('beforeunload', () => {
+  const savedData = { name: form.name.value, email: form.email.value, message: form.message.value };
+  window.localStorage.setItem('formData', JSON.stringify(savedData));
+});
