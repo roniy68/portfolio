@@ -204,8 +204,16 @@ form.addEventListener('submit', (event) => {
   }
 });
 
-// save data 
+// save data
 window.addEventListener('beforeunload', () => {
   const savedData = { name: form.name.value, email: form.email.value, message: form.message.value };
   window.localStorage.setItem('formData', JSON.stringify(savedData));
+});
+
+// get data
+window.addEventListener('load', () => {
+  const savedData = JSON.parse(window.localStorage.getItem('formData'));
+  form.name.value = savedData.name;
+  form.email.value = savedData.email;
+  form.message.value = savedData.message;
 });
