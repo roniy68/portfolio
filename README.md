@@ -69,7 +69,7 @@
 
 > Deployed Link Below: 
 
-- [Live Demo Link](https://roniy68.github.io/)
+- [Live Demo Link](https://roniy68.github.io/portfolio)
 
 ![image](https://user-images.githubusercontent.com/77187003/207030442-2ee1781b-c2b5-4037-80c0-22060b895428.png)
 
