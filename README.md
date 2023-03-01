@@ -7,7 +7,7 @@
   <img src="readme-assets/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Math-Magician</b></h3>
+  <h3><b>Ahmed Hasan Rony</b></h3>
 
 </div>
 
