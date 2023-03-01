@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,400&display=swap");
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: "Roboto", sans-serif;
+  color: #8b1212;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 0.6rem;
+}
+
+p {
+  margin-bottom: 4px;
+}
+
+header {
+  height: 9rem;
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+
+    .nav {
+      .list {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+
+        .list-item {
+          .link {
+            text-decoration: none;
+            transition: all 0.2s;
+
+            &:link,
+            &:visited {
+              color: #037e03;
+            }
+
+            &:hover,
+            &:active {
+              color: #f5913e;
+            }
+
+            &.active {
+              color: #f5913e;
+            }
+          }
+        }
+
+        @media (max-width: 550px) {
+          gap: 1rem;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+
+.header-title {
+  font-size: 4rem;
+}
+
+.main {
+  padding: 2rem 0;
+}
+
+.row {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.page-home {
+  padding: 4rem 0;
+  min-height: 70vh;
+
+  .home-container {
+    h2 {
+      border-bottom: #058928 solid 2px;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 2rem;
+      margin-bottom: 3rem;
+      font-weight: 400;
+    }
+  }
+}
+
+.calculator {
+  flex: 1;
+
+  .result {
+    background-color: #565767;
+    color: #fff;
+    border-bottom: solid 2px #fff;
+    padding: 1rem;
+    font-size: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 6rem;
+  }
+
+  .body {
+    height: 40rem;
+    display: flex;
+
+    .numbers {
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      gap: 2px;
+      background-color: #fff;
+
+      .num {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e0e0e0;
+      }
+
+      .zero {
+        grid-column: 1 / span 2;
+      }
+    }
+
+    .symbols {
+      flex: 0 0 20%;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+
+      .symbol {
+        flex: 1;
+        background-color: #f5913e;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .numbers .num,
+    .symbols .symbol {
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 1.6rem;
+      border: none;
+    }
+  }
+}
+
+.page-calculator {
+  padding: 4rem 0;
+  min-height: 70vh;
+
+  .calculator-page-container {
+    display: flex;
+    gap: 2rem;
+
+    .description-wrapper {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10rem;
+    }
+
+    .calculator {
+      flex: 1;
+    }
+  }
+}
+
+.page-quote {
+  padding: 4rem 0;
+  min-height: 70vh;
+  background-color: #afe9b4;
+
+  .random-quote-btn {
+    cursor: pointer;
+    border: none;
+    background-color: #013007;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.6rem;
+    margin-top: 1rem;
+  }
+}
+
+.math-quote {
+  border-left: solid 4px #989de9;
+  padding: 2rem;
+  border-radius: 4px;
+  margin: 2rem 0;
+
+  .by {
+    font-size: 1.6rem;
+
+    .name {
+      color: #ad04bd;
+    }
+  }
+}
+
+.footer {
+  border-top: 1px solid #be7777;
+  padding-top: 2rem;
+
+  .text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    .heart-icon {
+      color: rgb(226, 65, 65);
+    }
+  }
+
+  a {
+    &:link,
+    &:visited {
+      color: rgb(21, 94, 87);
+      text-decoration: none;
+    }
+
+    &:hover,
+    &:active {
+      color: #f5913e;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .page-calculator {
+    padding: 4rem 0;
+
+    .calculator-page-container {
+      flex-direction: column;
+
+      .description-wrapper {
+        gap: 1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .calculator-page {
+    flex-direction: column;
+  }
+
+  .header-title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .calculator-page {
+    flex-direction: column;
+  }
+
+  .header-title {
+    font-size: 2.2rem;
+  }
+}
