@@ -13,7 +13,7 @@
 
 # 📗 Table of Contents
 ## 📑 Table of Contents
-- [📊 Math Magician ](#-math-magician-)
+- [📊 Ahmed Hasan Rony ](#-ahroniy-)
   - [🛠 Built With ](#-built-with-)
     - [🧰 Tech Stack ](#-tech-stack-)
     - [💎 Key Features ](#-key-features-)
@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📊 Math Magician <a name="about-project"></a>
+# 📊 ahroniy <a name="about-project"></a>
 
 A web-based application to understand about the basics of React - Redux 
 
@@ -64,7 +64,7 @@ A web-based application to understand about the basics of React - Redux
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-***Live*** :  [Math Magician](https://roniy68.github.io/math-magician).
+***Live*** :  [ahroniy](https://ahroniy.me).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ![image](https://user-images.githubusercontent.com/77187003/221171214-13560b83-adbd-40cf-b5a6-c2d8bec7feb6.png)
