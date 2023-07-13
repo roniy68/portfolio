@@ -23,6 +23,10 @@ import {
   jobit,
   tripguide,
   threejs,
+  microverse,
+  junction,
+  weabers,
+  drsight
 } from "../assets";
 
 export const navLinks = [
@@ -116,9 +120,35 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Microverse",
-    icon: starbucks,
+    title: "Full Stack Developer",
+    company_name: "Microverse ",
+    icon: microverse,
+    iconBg: "#383E56",
+    date: "",
+    points: [
+      "Developing and maintaining web applications using Ruby on Rails, React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers/junior trainee.",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Junction",
+    icon: junction,
+    iconBg: "#E6DEDD",
+    date: "",
+    points: [
+      "Helped Organize more than 2500+ projects and 20k+ participants",
+      "Volunteered 80+ projects. ",
+      "Collaborated with 1k+ developers from all over the world.",
+      "Performed more than 1000+ Code Reviews and Features",
+    ],
+  },
+  {
+    title: "Dev Ops Engineer | CTO",
+    company_name: "Weabers",
+    icon: weabers,
     iconBg: "#383E56",
     date: "",
     points: [
@@ -130,8 +160,8 @@ const experiences = [
   },
   {
     title: "React Native Developer",
-    company_name: "Microverse",
-    icon: tesla,
+    company_name: "Drsight",
+    icon: drsight,
     iconBg: "#E6DEDD",
     date: "",
     points: [
@@ -141,32 +171,7 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Microverse",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Microverse",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
 ];
 
 const testimonials = [

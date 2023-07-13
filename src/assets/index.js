@@ -32,7 +32,7 @@ import tripguide from "./tripguide.png";
 
 import drsight from "./drsight.png";
 import weabers from "./weabers-logo.png";
-import junciton from "./junction.jpg";
+import junction from "./junction.jpg";
 import microverse from "./microverse.png"
 
 import nextjs from "./tech/nextjs.png"
@@ -42,7 +42,7 @@ export {
   ror,
   nextjs,
   microverse,
-  junciton,
+  junction,
   weabers,
   drsight,
   logo,
