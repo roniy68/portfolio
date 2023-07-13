@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import Connections from "./Connections";
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -74,6 +76,8 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <Connections />
 
         <form
           ref={formRef}

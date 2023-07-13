@@ -30,7 +30,21 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import drsight from "./drsight.png";
+import weabers from "./weabers-logo.png";
+import junction from "./junction.jpg";
+import microverse from "./microverse.png"
+
+import nextjs from "./tech/nextjs.png"
+import ror from "./tech/ror.png"
+
 export {
+  ror,
+  nextjs,
+  microverse,
+  junction,
+  weabers,
+  drsight,
   logo,
   backend,
   creator,
