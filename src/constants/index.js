@@ -15,10 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -177,42 +173,42 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Rony proved me wrong.",
+    name: "Salwa",
+    designation: "Full Stack Developer",
+    company: "Microverse",
+    image: "https://avatars.githubusercontent.com/u/110976050?v=4",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
+      "I've never met a web developer who truly cares about their clients' success like Rony does.",
+    name: "Samu Rotko",
     designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    company: "Hack Junction",
+    image: "https://res.cloudinary.com/dflkan5fc/image/upload/v1689255204/samu-rotko_qhurjj.jpg",
+  },
+  {
+    testimonial:
+      "After Rony optimized our website, our traffic increased by 50%. We can't thank him enough!",
+    name: "Barry",
+    designation: "Full Stack Developer",
+    company: "Microverse",
+    image: "https://avatars.githubusercontent.com/u/111948881?v=4",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Car Rent / Reserve A Car",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "RENTCAR is a collaborative project, it's about luxury car rental platform built with Rails and React. Users can browse and reserve available models, manage reservations, and contribute by adding or deleting cars. It offers a seamless experience for renting luxury cars with ease.",
     tags: [
       {
-        name: "react",
+        name: "react/rails",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "postgresql",
         color: "green-text-gradient",
       },
       {
@@ -221,7 +217,8 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/roniy68/capstone-rails",
+    live_link: "https://capstone-rails.onrender.com"
   },
   {
     name: "Job IT",
