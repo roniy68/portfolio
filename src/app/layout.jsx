@@ -16,13 +16,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${inter.className} relative z-0 bg-primary`}>
         <Providers>
-          <Header />
+          <header className='z-50 absoloute top-0'>
+            <Header />
+          </header>
 
           <main>
             {children}
           </main>
 
           <Footer />
+
         </Providers>
       </body>
     </html>
