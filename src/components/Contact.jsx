@@ -7,6 +7,9 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+import { BsGithub, BsLinkedin } from 'react-icons/bs';
+import { FaTwitterSquare } from 'react-icons/fa';
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -74,6 +77,12 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+
+        <div className="flex gap-4 justify-center items-center bg-rose-500">
+          <BsGithub size={30} />
+          <BsLinkedin size={30} />
+          <FaTwitterSquare size={35} />
+        </div>
 
         <form
           ref={formRef}
