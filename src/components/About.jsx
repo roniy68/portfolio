@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import Connections from "./Connections";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -41,6 +42,8 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <div className=" flex flex-row justify-center items-center p-6">          <Connections />
+        </div>
       </motion.div>
 
       <motion.p
@@ -48,8 +51,10 @@ const About = () => {
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
         I'm a skilled software developer with experience in TypeScript and
-        JavaScript and expertise in frameworks like React/NextJS, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
+        JavaScript & Ruby. Expertise in frameworks like React/NextJS, Ruby On Rails, Node.js, and
+        Three.js. I have been working in the software industry for more than 7 years.
+        <br />
+        I'm a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
         Strong adaptability,

@@ -131,6 +131,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers/junior trainee.",
     ],
+    link: "http://microverse.org/",
   },
   {
     title: "Full stack Developer",
@@ -144,6 +145,7 @@ const experiences = [
       "Collaborated with 1k+ developers from all over the world.",
       "Performed more than 1000+ Code Reviews and Features",
     ],
+    link: "http://hackjunction.com/",
   },
   {
     title: "Dev Ops Engineer | CTO",
@@ -157,6 +159,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    link: "https://www.weabers.com/",
   },
   {
     title: "React Native Developer",
@@ -170,6 +173,7 @@ const experiences = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+    link: "https://www.facebook.com/drsight.me/"
   },
 
 ];
