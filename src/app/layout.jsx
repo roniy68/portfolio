@@ -1,4 +1,4 @@
-import { Providers } from '@src/store/Provider'
+// import { Providers } from '@src/store/Providers'
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Footer from '@/components/footer/Footer'
@@ -15,18 +15,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${inter.className} relative z-0 bg-primary`}>
-        <Providers>
-          <header className='z-50 absoloute top-0'>
-            <Header />
-          </header>
 
-          <main>
-            {children}
-          </main>
+        <header className='z-50 absoloute top-0'>
+          <Header />
+        </header>
 
-          <Footer />
+        <main>
+          {children}
+        </main>
 
-        </Providers>
+        <Footer />
+
+
       </body>
     </html>
   )
