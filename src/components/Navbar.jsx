@@ -59,11 +59,17 @@ const Navbar = () => {
               {
                 nav.id === "resume" ?
                   <a href="https://drive.google.com/file/d/1mgEuCu4Y1v8upuQ6oISCSeyG7_kp5KdD/view?usp=sharing" target="_blank">{nav.title}</a> :
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  nav.id === "contact" ?
+                    <a className="bg-rose-500 p-2 rounded-3xl hover:bg-rose-200 hover:text-black" href={`#${nav.id}`}>{nav.title}</a> :
+                    <a href={`#${nav.id}`}>{nav.title}</a>
               }
             </li>
           ))}
         </ul>
+
+        <div className="sm:hidden flex flex-1 justify-center items-center ">
+          <a className="bg-rose-500 p-2 rounded-3xl hover:bg-rose-200 hover:text-black" href="#contact">Contact Me</a>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
