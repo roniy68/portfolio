@@ -168,7 +168,7 @@ If you like this project, please consider giving it a ⭐.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 This project was inspired by:
-- [GitHub Finder](https://github.com/JasurbekIsokov/github-finder)
+- [JS Mastery](https://github.com/adrianhajdin)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
