@@ -7,6 +7,8 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { BsGithub } from "react-icons/bs";
+import { FiCast } from "react-icons/fi"
 
 const ProjectCard = ({
   index,
@@ -18,7 +20,7 @@ const ProjectCard = ({
   live_link
 }) => {
   return (
-    <motion.div onClick={() => window.open(live_link, "_blank")} variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -55,13 +57,26 @@ const ProjectCard = ({
 
         <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
+            <>
+              <p
+                key={`${name}-${tag.name}`}
+                className={`text-[14px] ${tag.color}`}
+              >
+                #{tag.name}
+              </p>
+            </>
           ))}
+
+        </div>
+        <div className=" flex justify-around flex-1 p-6 mt-2">
+          <div className="bg-[#041f28] flex gap-2 justify-center items-center hover:bg-rose-500 text-3xl font-bold rounded-3xl cursor-pointer p-6" onClick={() => window.open(source_code_link, "_blank")}>
+            <BsGithub />
+            Code
+          </div>
+          <div className="hover:bg-rose-500 flex gap-4 justify-center items-center text-3xl font-bold rounded-3xl cursor-pointer p-6" onClick={() => window.open(live_link, "_blank")}>
+            Live
+            <FiCast size={30} />
+          </div>
         </div>
       </Tilt>
     </motion.div>
