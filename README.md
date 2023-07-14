@@ -1,64 +1,62 @@
 <a name="readme-top"></a>
 
+<a name="readme-top"></a>
+
 <div align="center">
 
-  <img src="images/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="readme-assets/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Project</b></h3>
+  <h3><b>Ahmed Hasan Rony</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
-
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 Portfolio  ](#-portfolio--)
+## 📑 Table of Contents
+- [📊 Ahmed Hasan Rony ](#-ahroniy-)
   - [🛠 Built With ](#-built-with-)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
+    - [🧰 Tech Stack ](#-tech-stack-)
+    - [💎 Key Features ](#-key-features-)
   - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
-- [To check for css errors](#to-check-for-css-errors)
-- [To check for html errors](#to-check-for-html-errors)
-  - [👥 Authors ](#-authors-)
+    - [Deployment](#deployment)
+  - [📧 Contact ](#-contact-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
+  - [💖 Show your support ](#-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio  <a name="about-project"></a>
+# 📊 ahroniy <a name="about-project"></a>
 
-> This Project is to create Portfolio for our Resume
->       <br><b> Module One day 2 Project [solo]</b>
+A web-based application to understand about the basics of React - Redux 
 
-**PORTFOLIO** is a template to build your portfolio website beautiful.
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
+### 🧰 Tech Stack <a name="tech-stack"></a>
 
->HTML and CSS
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+- ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+- ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://w3school.com/">HTML</a></li>
-  </ul>
-</details>
-<br>
+<!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### 💎 Key Features <a name="key-features"></a>
 
-> THIS IS A SIMPLE TEMPLATE APP FOR NOW
+- Generate a comprehensive Folder Structure for React App 💻
+- Understand the concept of setting up a project with redux 📈
+- Beautifully designed and easy-to-use 🎨
+- Continuous Monitoring 📸
+- Development Tools : Auto refresh and Hot Reload 🔗
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -66,93 +64,76 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> NOT AVAILABLE RIGHT NOW
-
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
-
+***Live*** :  [ahroniy](https://ahroniy.me).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+![image](https://user-images.githubusercontent.com/77187003/221171214-13560b83-adbd-40cf-b5a6-c2d8bec7feb6.png)
+
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> A new Developer can use this as a template to create other html project with right setup for css with eslint 
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-  - NODE 
-  - ESlint set up
+In order to run this project you need [Node.js](https://nodejs.org/en/) installed on your machine.
 
 ### Setup
-- install node and eslint
- 
-
-```sh
-  npm install eslint
-  npx eslint --init
-```
-<br>
-
-
-### Install
-
-Install this project with:
 
 Clone this repository to your desired folder:
 
+```sh
+  cd my-project
+  git clone git@github.com:roniy68/math-magician.git .
+```
 
- commands:
+### Install
+
+Install the dependencies with:
 
 ```sh
-  git clone https://github.com/roniy68/portfolio.git
-  cd hello-world
-  npm install -y
+  npm install
 ```
-<br><br>
 
 ### Usage
 
 To run the project, execute the following command:
 
-
--install serve with : npm install -g serve
-
 ```sh
-  serve -s .
+  npm start
 ```
 
+<!-- ### Run tests
 
-
-
-# To check for css errors
+To run tests, run the following command:
 
 ```sh
-    npx stylelint "**/*.{css,scss}"
+  npm run test
+``` -->
 
-```
-# To check for html errors
+### Deployment
+
+You can deploy this project using:
+
 ```sh
-    npx hint .
+  npm run build
 ```
-
+This will create a production-ready build of your website in `build/` folder, which you can use to deploy on a static site server.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 📧 Contact <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+I am always looking for ways to improve my project. If you have any suggestions or ideas, I would love to hear from you.
 
-👤 **Author1**
-
-- GitHub: [@roniy68](https://github.com/roniy68)
-- Twitter: [@ahroniy](https://twitter.com/ahroniy)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/ahroniy)
-
+[![Github](https://img.shields.io/badge/GitHub-673AB7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/roniy68)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/ahroniy)
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ahroniy)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmed.hasan.rony@gmail.com)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -161,11 +142,8 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
->  1 - 3 features I will add to the project.
-
-- [ ] **javascript**
-- [ ] **frontend**
-- [ ] **backend**
+- [x] **Mobile UI**
+- [ ] **Visualize contribution**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,7 +151,7 @@ To run the project, execute the following command:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions, issues, and feature requests are welcome!
+I welcome any and all contributions to my website! If you have an idea for a new feature or have found a bug, please open an issue or submit a pull request.
 
 Feel free to check the [issues page](../../issues/).
 
@@ -181,11 +159,9 @@ Feel free to check the [issues page](../../issues/).
 
 <!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## 💖 Show your support <a name="support"></a>
 
->  I need Support and Guidance to become a Developer.
-
-If you like this project...
+If you like this project, please consider giving it a ⭐.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,21 +169,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-
-
-- **How you clone the repo?**
-
-  - git clone **\<repo name\>**
-
-- **How you install node?**
-
-  - https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
+This project was inspired by:
+- [GitHub Finder](https://github.com/JasurbekIsokov/github-finder)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -215,6 +178,6 @@ If you like this project...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./readme-assets/MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

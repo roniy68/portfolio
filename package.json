@@ -1,25 +1,35 @@
 {
-  "name": "portfolio",
-  "version": "0.1.0",
+  "name": "ahroniy.me",
   "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@reduxjs/toolkit": "^1.9.5",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.44.0",
-    "eslint-config-next": "13.4.8",
-    "firebase": "^10.0.0",
-    "firebase-admin": "^11.9.0",
-    "next": "13.4.8",
-    "postcss": "8.4.24",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-redux": "^8.1.1",
-    "tailwindcss": "3.3.2"
+    "@emailjs/browser": "^3.10.0",
+    "@react-three/drei": "^9.57.0",
+    "@react-three/fiber": "^8.11.9",
+    "framer-motion": "^10.2.3",
+    "maath": "^0.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-router-dom": "^6.8.2",
+    "react-tilt": "^0.1.4",
+    "react-vertical-timeline-component": "^3.6.0",
+    "three": "^0.150.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "vite": "^4.1.0"
   }
 }
