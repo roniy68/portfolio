@@ -67,8 +67,6 @@ A web-based application to understand about the basics of React - Redux
 ***Live*** :  [ahroniy](https://ahroniy.me).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-![image](https://user-images.githubusercontent.com/77187003/221171214-13560b83-adbd-40cf-b5a6-c2d8bec7feb6.png)
-
 
 <!-- GETTING STARTED -->
 
