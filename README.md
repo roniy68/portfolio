@@ -84,7 +84,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-project
-  git clone git@github.com:roniy68/math-magician.git .
+  git clone git@github.com:roniy68/portfolio.
 ```
 
 ### Install
