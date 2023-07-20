@@ -66,7 +66,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> NOT AVAILABLE RIGHT NOW
+> NOT AVAILABLE RIGHT NOW .. 
 
 <!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
 
