@@ -16,6 +16,24 @@ To report a security issue, please follow these steps:
 
 Please note that this security policy applies to the official releases of portfolio. If you are using a modified or third-party version, please reach out to the respective maintainers for their security policy.
 
+# Supported Versions
 
+We strive to provide security updates for the latest release of portfolio and the previous stable release. It's highly recommended to keep your installation up to date with the latest version to benefit from the latest security patches and improvements.
+
+# Security Best Practices
+
+While we actively maintain the security of portfolio, we also encourage users and contributors to follow these best practices to enhance the security of their own deployments:
+
+- Keep portfolio and its dependencies up to date with the latest security patches.
+- Enable authentication, authorization, and strong password policies to protect user accounts.
+- Regularly backup your data to prevent data loss in case of any unforeseen incidents.
+- Restrict server access and permissions to authorized personnel only.
+- Review and test custom code or third-party integrations for potential vulnerabilities.
+
+By following these practices and promptly reporting any security concerns, we can collectively maintain a secure environment for all portfolio users.
+
+Thank you for your help in making portfolio a safe and secure project!
+
+Email : [ahr@drsight.us](mailto:ahr@drsight.us)
 
 
